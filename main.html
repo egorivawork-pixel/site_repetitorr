@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дарья Илюшкина — подготовка к ЕГЭ и ОГЭ</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<button id="scrollTopBtn" class="scrollTop" type="button" aria-label="Наверх">
+  ↑
+</button>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="На главную">Дарья Илюшкина</a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav__link" href="#lessons">О занятиях</a>
+        <a class="nav__link" href="#cases">Кейсы</a>
+        <a class="nav__link" href="#reviews">Отзывы</a>
+        <a class="nav__link" href="#pricing">Стоимость</a>
+        <a class="nav__link" href="#about">Обо мне</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="phone" href="tel:+79885365595">+7(988) 536-55-95</a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" hidden>
+      <div class="container mobile__inner">
+        <a class="mobile__link" href="#lessons">О занятиях</a>
+        <a class="mobile__link" href="#cases">Кейсы</a>
+        <a class="mobile__link" href="#reviews">Отзывы</a>
+        <a class="mobile__link" href="#pricing">Стоимость</a>
+        <a class="mobile__link" href="#about">Обо мне</a>
+        <a class="mobile__link" href="#contacts">Контакты</a>
+        <a class="mobile__link mobile__link--phone" href="tel:+79885365595">+7(988) 536-55-95</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <h1 class="hero__title">
+            ПОДГОТОВКА<br>
+            К <span class="hero__accent">ЕГЭ</span> И <span class="hero__accent">ОГЭ</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            по русскому языку и литературе с проверкой<br>
+            пробников и сочинений экспертами ЕГЭ/ОГЭ
+          </p>
+
+          <div class="stats">
+            <div class="stat stat--tilt-left">
+              <div class="stat__big">80–100</div>
+              <div class="stat__small">средний<br>балл ЕГЭ</div>
+            </div>
+
+            <div class="stat stat--tilt-right">
+              <div class="stat__big">4–5</div>
+              <div class="stat__small">средняя<br>оценка ОГЭ</div>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--ghost" href="#request">пробное занятие</a>
+            <a class="btn btn--primary" href="#request">записаться</a>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="photo">
+            <img class="photo__img" src="img/лицо большой план.jpg" alt="Фото репетитора" loading="lazy" />
+            <div class="photo__badge">Дарья Илюшкина</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lessons" class="benefits">
+      <div class="container">
+        <h2 class="h2">
+          НА ЗАНЯТИЯХ СО МНОЙ<br>ВЫ ПОЛУЧИТЕ
+          <span class="u-wave" aria-hidden="true"></span>
+        </h2>
+
+        <div class="benefits__grid">
+          <article class="benefit benefit--paper benefit--tilt-1 reveal">
+            <h3 class="benefit__head">
+              АКТУАЛЬНУЮ<br>ИНФОРМАЦИЮ<br>ПО ЭКЗАМЕНАМ<br>С УЧЁТОМ ВСЕХ<br>ИЗМЕНЕНИЙ
+            </h3>
+            <p class="benefit__note">
+              (сдаю ЕГЭ каждый год на 95–100 баллов, знаю все подводные камни и мониторю изменения)
+            </p>
+          </article>
+
+          <article class="benefit benefit--accent benefit--tilt-2 reveal">
+            <h3 class="benefit__head benefit__head--light">
+              ПРОВЕРКУ РАБОТ<br>ЭКСПЕРТАМИ<br>ЕГЭ/ОГЭ
+            </h3>
+            <p class="benefit__note benefit__note--light">
+              (сочинения/изложения пишем каждую неделю)
+            </p>
+          </article>
+
+          <article class="benefit benefit--paper benefit--tilt-3 reveal">
+            <h3 class="benefit__head">
+              ПОДГОТОВКУ К ЕГЭ<br>НА 80+ БАЛЛОВ<br>И К ОГЭ НА «5»
+            </h3>
+            <p class="benefit__note">
+              (или на твёрдую 4, если знаний совсем нет)
+            </p>
+          </article>
+
+          <article class="benefit benefit--paper benefit--tilt-4 reveal">
+            <h3 class="benefit__head">
+              ЗАНЯТИЯ ОНЛАЙН<br>В ФОРМАТЕ<br>ВИДЕО-ВСТРЕЧ
+            </h3>
+            <p class="benefit__note">
+              (в мини-группе до 4 человек или индивидуально)
+            </p>
+          </article>
+
+          <article class="benefit benefit--paper benefit--tilt-5 reveal">
+            <h3 class="benefit__head">
+              КОМФОРТНУЮ<br>ДЛЯ ОБУЧЕНИЯ<br>ОБСТАНОВКУ
+            </h3>
+            <p class="benefit__note">
+              (я не ругаю за ошибки, а поддерживаю и объясняю)
+            </p>
+          </article>
+
+          <article class="benefit benefit--accent2 benefit--tilt-6 reveal">
+            <h3 class="benefit__head benefit__head--light">
+              ИНТЕРАКТИВНЫЕ<br>ЗАДАНИЯ<br>И ИНТЕРЕСНУЮ<br>ПОДАЧУ МАТЕРИАЛА
+            </h3>
+            <p class="benefit__note benefit__note--light">
+              (всё, что поможет запомнить материал подросткам: игры, мемы, чек-листы, подборки фильмов, плейлистов и прочее)
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases" class="cases">
+      <div class="container">
+        <div class="guarantee reveal">
+          <h2 class="h2 h2--small">
+            ГАРАНТИЯ:
+            <span class="u-wave" aria-hidden="true"></span>
+          </h2>
+          <p class="guarantee__text">
+            (если за месяц до ЕГЭ ученик пишет пробник ниже 80 баллов,
+            то весь следующий месяц мы занимаемся бесплатно и проводим в 2 раза больше занятий)
+          </p>
+          <button class="linklike" type="button" data-modal-open="guarantee">подробнее</button>
+        </div>
+
+        <h2 class="h2">
+          МОИ КЕЙСЫ
+          <span class="u-wave" aria-hidden="true"></span>
+        </h2>
+
+        <div class="cases__grid">
+          <article class="casecard reveal">
+            <h3 class="casecard__title"><span class="casecard__k">КЕЙС 1:</span> ОГЭ С НУЛЯ<br>ДО ТВЁРДОЙ «4»</h3>
+            <p class="casecard__p">
+              За 4 месяца до ОГЭ ко мне за помощью обратилась девочка без знаний по предмету
+            </p>
+            <p class="casecard__p">
+              <strong>Хотели хотя бы перейти порог</strong>, но спустя 4 месяца работы, мы вышли на твёрдую четвёрку
+            </p>
+            <div class="tags">
+              <span class="tag">ОГЭ</span>
+              <span class="tag">русский язык</span>
+              <span class="tag">4 месяца</span>
+            </div>
+          </article>
+
+          <article class="casecard reveal">
+            <h3 class="casecard__title"><span class="casecard__k">КЕЙС 2:</span> ЕГЭ С 40 ДО 82<br>БАЛЛОВ ЗА 2 МЕСЯЦА</h3>
+            <p class="casecard__p">
+              За 2 месяца до ЕГЭ ко мне пришла девочка, чтобы улучшить свои результаты
+            </p>
+            <p class="casecard__p">
+              Изначально она писала пробники на <strong>40 баллов</strong>, но после 2 месяцев работы экзамен по литературе был сдан на 82 балла
+            </p>
+            <div class="tags">
+              <span class="tag">ЕГЭ</span>
+              <span class="tag">литература</span>
+              <span class="tag">16 занятий</span>
+            </div>
+          </article>
+
+          <aside class="cases__note reveal">
+            <p class="cases__noteText">
+              Литература — очень объёмный предмет, и готовиться к ЕГЭ нужно заранее
+            </p>
+            <p class="cases__noteText">
+              Но, как показывает этот кейс, даже за несколько месяцев до экзамена можно <strong>значительно улучшить результаты</strong>
+            </p>
+          </aside>
+
+          <article class="casecard reveal">
+            <h3 class="casecard__title"><span class="casecard__k">КЕЙС 3:</span> ПОДГОТОВКА<br>К ПЕРЕСДАЧЕ ОГЭ</h3>
+            <p class="casecard__p">
+              Ко мне обратился мальчик за 1 месяц до пересдачи ОГЭ <strong>(изначально экзамен был провален)</strong>
+            </p>
+            <p class="casecard__p">
+              Итог: за 1 месяц мы нагнали программу насколько это было возможно, и за 8 занятий дотянули до твёрдой тройки
+            </p>
+            <div class="tags">
+              <span class="tag">ОГЭ</span>
+              <span class="tag">русский язык</span>
+              <span class="tag">1 месяц</span>
+            </div>
+          </article>
+
+          <article class="casecard reveal">
+            <h3 class="casecard__title"><span class="casecard__k">КЕЙС 4:</span> ОГЭ НА «4»<br>С НУЛЯ ЗА ГОД</h3>
+            <p class="casecard__p">
+              Занимались с мальчиком, у которого совсем не было знаний по предмету — <strong>родители молились, чтобы экзамен вышла хотя бы оценка «3»</strong>
+            </p>
+            <p class="casecard__p">
+              Итог: оценка «4» и решение идти в 10 класс, а не уходить в колледж
+            </p>
+            <div class="tags">
+              <span class="tag">ОГЭ</span>
+              <span class="tag">русский язык</span>
+              <span class="tag">4 месяца</span>
+            </div>
+          </article>
+
+          <aside class="cases__smallnote reveal">
+            <p class="cases__smallnoteText">
+              Бывает так, что в школе какая-то дисциплина совсем «не идёт», и на ОГЭ не получается даже перейти порог
+            </p>
+            <p class="cases__smallnoteText">
+              За счёт вовлечения ученика в предмет, я помогаю ему освоить базу и сдать экзамен
+            </p>
+          </aside>
+        </div>
+
+        <div class="center cases__cta">
+          <a class="btn btn--primary btn--wide" href="https://t.me/Egorikkk_kc" target="_blank" rel="noopener">
+            больше кейсов в телеграм
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2 class="section-title section-title--reviews">
+          ОТЗЫВЫ УЧЕНИКОВ<br>И ИХ РОДИТЕЛЕЙ
+          <span class="section-title__dots" aria-hidden="true"></span>
+        </h2>
+
+        <div class="reviews__wrap">
+          <button class="reviews__btn reviews__btn--prev" type="button" aria-label="Предыдущий отзыв">‹</button>
+
+          <div class="reviews__viewport" aria-label="Слайдер отзывов">
+            <div class="reviews__track">
+              <article class="review-card">
+                <div class="review-card__top">
+                  <div class="review-card__avatar">Б</div>
+                  <div class="review-card__meta">
+                    <div class="review-card__name">БОГДАН</div>
+                    <div class="review-card__date">8 января 2025</div>
+                  </div>
+                </div>
+                <p class="review-card__text">
+                  Очень благодарен этой женщине, помогла с подготовкой к ЕГЭ, все непонятные темы объяснила.
+                  Добрая и умная. Советую!!
+                </p>
+              </article>
+
+              <article class="review-card">
+                <div class="review-card__top">
+                  <div class="review-card__avatar">Д</div>
+                  <div class="review-card__meta">
+                    <div class="review-card__name">ДИАНА</div>
+                    <div class="review-card__date">6 августа 2024</div>
+                  </div>
+                </div>
+                <p class="review-card__text">
+                  Отличный специалист. Помогла подготовиться к экзамену в короткие сроки и отлично сдать.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <div class="review-card__top">
+                  <div class="review-card__avatar">А</div>
+                  <div class="review-card__meta">
+                    <div class="review-card__name">АННА</div>
+                    <div class="review-card__date">15 мая 2024</div>
+                  </div>
+                </div>
+                <p class="review-card__text">
+                  Понравилось, что на занятиях всё структурно и спокойно. Сочинения разбирали подробно,
+                  стало намного увереннее.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <button class="reviews__btn reviews__btn--next" type="button" aria-label="Следующий отзыв">›</button>
+        </div>
+
+        <a class="reviews__more btn btn--primary" href="https://t.me/Egorikkk_kc" target="_blank" rel="noopener">
+          больше оригинальных отзывов в телеграм
+        </a>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2 class="h2">ДЛИТЕЛЬНАЯ ПОДГОТОВКА</h2>
+        <p class="sub">(полугодовые или годовые курсы)</p>
+
+        <div class="accordion reveal" data-accordion>
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ОГЭ ПО РУССКОМУ ЯЗЫКУ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Формат:</strong> индивидуально / мини-группа до 4 человек</p>
+              <p><strong>Что входит:</strong> диагностика, план, домашка, проверка работ, пробники</p>
+              <p><strong>Стоимость:</strong> по запросу (в зависимости от формата)</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ОГЭ ПО ЛИТЕРАТУРЕ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Формат:</strong> индивидуально / мини-группа</p>
+              <p><strong>Фокус:</strong> анализ текстов, аргументация, сочинения</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ЕГЭ ПО РУССКОМУ ЯЗЫКУ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Формат:</strong> индивидуально / мини-группа</p>
+              <p><strong>Что делаем:</strong> тестовая часть + сочинение, система ошибок</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ЕГЭ ПО ЛИТЕРАТУРЕ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Формат:</strong> индивидуально / мини-группа</p>
+              <p><strong>Сочинения:</strong> каждую неделю, с проверкой и улучшением структуры</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h2 mt64">ИНТЕНСИВЫ</h2>
+        <p class="sub">(экспресс-подготовка за 3 месяца)</p>
+
+        <div class="accordion reveal" data-accordion>
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ОГЭ ПО РУССКОМУ ЯЗЫКУ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Срок:</strong> 3 месяца</p>
+              <p><strong>Цель:</strong> быстро закрыть базу + довести до стабильных пробников</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">ПОДГОТОВКА К ЕГЭ ПО РУССКОМУ ЯЗЫКУ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Срок:</strong> 3 месяца</p>
+              <p><strong>Фокус:</strong> тест + сочинение, работа с типовыми ошибками</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h2 mt64">СПРИНТЫ</h2>
+        <p class="sub">(1–2 недели)</p>
+
+        <div class="accordion reveal" data-accordion>
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">СПРИНТ ПО СОЧИНЕНИЯМ/ИЗЛОЖЕНИЯМ ЕГЭ/ОГЭ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Фокус:</strong> структура, клише, логика, речевые ошибки</p>
+              <p><strong>Результат:</strong> понятный алгоритм + тренировка</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">СПРИНТ ПО ПУНКТУАЦИИ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Фокус:</strong> самые частые задания + ловушки</p>
+              <p><strong>Практика:</strong> много мини-тестов + разбор</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+
+          <button class="accitem" type="button" data-acc>
+            <span class="accitem__text">СПРИНТ ПО ОРФОГРАФИИ</span>
+            <span class="accitem__icon">›</span>
+          </button>
+          <div class="accpanel" data-panel>
+            <div class="accpanel__inner">
+              <p><strong>Фокус:</strong> правила, исключения, алгоритмы</p>
+              <p><strong>Результат:</strong> повышение точности на тестовой части</p>
+              <p><strong>Стоимость:</strong> по запросу</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="h2">ОБО МНЕ</h2>
+
+        <div class="about__grid">
+          <div class="photostack photostack--two reveal" aria-label="Фотографии Дарьи">
+            <figure class="photostack__card photostack__card--a">
+              <img src="img/9a4c669a63b27f571bf6def88ce2aa4a.jpg" alt="Дарья Илюшкина — портрет" loading="lazy">
+              <figcaption class="photostack__label">Дарья Илюшкина</figcaption>
+            </figure>
+
+            <figure class="photostack__card photostack__card--b" aria-hidden="true">
+              <img src="img/учёба на улице.jpg" alt="" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="about__text reveal">
+            <p class="about__hello">
+              Здравствуйте! Меня зовут Дарья, и уже <strong>более 4 лет я готовлю ребят к ОГЭ и ЕГЭ</strong> по русскому языку и литературе
+            </p>
+
+            <div class="pill">
+              Средние результаты учеников на <strong>ЕГЭ 80–90+</strong> баллов, на <strong>ОГЭ</strong> — оценка «5» при наличии минимальной базы и «4» без изначальных знаний
+            </div>
+
+            <ul class="bullets">
+              <li>Я молодой преподаватель, поэтому легко нахожу общий язык с ребятами — все ученики отмечают дружелюбную, комфортную для обучения атмосферу</li>
+              <li>Сама сдаю ЕГЭ каждый год на 95–100 баллов, мониторю все изменения, знаю все «подводные камни»</li>
+              <li>Я понимаю, насколько сильным стрессом являются экзамены, и умею поддерживать учеников в этот трудный период</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="aboutcards">
+          <div class="aboutcard reveal">
+            <div class="aboutcard__t">ЗНАЮ СВОЙ<br>ПРЕДМЕТ<br>ДОСКОНАЛЬНО</div>
+            <div class="aboutcard__s">(объясняю понятным языком)</div>
+          </div>
+          <div class="aboutcard reveal">
+            <div class="aboutcard__t">ВОВЛЕКАЮ РЕБЯТ<br>В ЗАНЯТИЯ</div>
+            <div class="aboutcard__s">(делаю их нескучными — у меня много практики, интересных подросткам материалов: мемов, игр, интерактива)</div>
+          </div>
+          <div class="aboutcard aboutcard--accent reveal">
+            <div class="aboutcard__t aboutcard__t--light">НАИБОЛЕЕ<br>ЭФФЕКТИВНЫЙ<br>ПЛАН ПОДГОТОВКИ</div>
+            <div class="aboutcard__s aboutcard__s--light">(который выработан за 4 года работы)</div>
+          </div>
+        </div>
+
+        <div class="about__bottom">
+          <div class="about__cta reveal">
+            <h3 class="about__ctaTitle">
+              Я ПРОВОЖУ ЗАНЯТИЯ ИНДИВИДУАЛЬНО<br>И В МИНИ-ГРУППАХ ДО 4 ЧЕЛОВЕК
+            </h3>
+
+            <div class="about__actions">
+              <a class="btn btn--ghost" href="#request">пробное занятие</a>
+              <a class="btn btn--primary" href="#request">записаться</a>
+            </div>
+          </div>
+
+          <div class="about__pros reveal">
+            <ul class="bullets bullets--tight">
+              <li>В группах ученики более вовлечены, за счёт этого они <strong>лучше усваивают материал</strong>, а также приобретают друзей и поддержку, <strong>развивают навыки коммуникации</strong>, учатся рассказывать и доносить свою точку зрения</li>
+              <li>Много раз в группы приходили <strong>закрытые и необщительные ребята</strong>, но после пары занятий, они <strong>раскрывались</strong>, чувствовали себя комфортно и были рады, что попробовали</li>
+              <li>В групповом формате <strong>гораздо больше интерактива</strong>, а здоровая конкуренция также способствует улучшению результатов</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 class="h2">КОНТАКТЫ</h2>
+
+        <div class="contactgrid reveal">
+          <div class="contactcard contactcard--tilt1">
+            <div class="contactcard__h">НОМЕРА<br>ТЕЛЕФОНОВ</div>
+            <div class="contactcard__v">
+              <a href="tel:+79885365595">+7(988) 536-55-95</a><br>
+              <a href="tel:+79910885307">+7 (991) 088-53-07</a>
+            </div>
+          </div>
+
+          <div class="contactcard contactcard--tilt2">
+            <div class="contactcard__h">ЭЛЕКТРОННАЯ<br>ПОЧТА</div>
+            <div class="contactcard__v">
+              <a href="mailto:sasdas2004@gmail.com">sasdas2004@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contactcard contactcard--tilt3">
+            <div class="contactcard__h">TELEGRAM<br>КАНАЛ</div>
+            <div class="contactcard__v">
+              <a href="https://t.me/loveforwordsegeoge" target="_blank" rel="noopener">
+                https://t.me/loveforwordsegeoge
+              </a>
+            </div>
+          </div>
+
+          <div class="contactcard contactcard--tilt4">
+            <div class="contactcard__h">НЕЛЬЗЯГРАМ</div>
+            <div class="contactcard__v">появится скоро</div>
+          </div>
+
+          <div class="contactcard contactcard--tilt5">
+            <div class="contactcard__h">FACEBOOK</div>
+            <div class="contactcard__v">появится скоро</div>
+          </div>
+        </div>
+
+        <h2 id="request" class="h2 mt64">ОСТАВИТЬ ЗАЯВКУ</h2>
+
+        <div class="request reveal">
+          <div class="request__img">
+            <img src="img/библиотека.jpg" alt="Книга" loading="lazy">
+          </div>
+
+          <form class="request__form" id="leadForm" autocomplete="on">
+            <label class="field">
+              <span class="field__label">Ваше имя</span>
+              <input class="field__input" type="text" name="name" placeholder="Иван Иванов" required>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Номер телефона</span>
+              <input class="field__input" type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Возраст ученика</span>
+              <input class="field__input" type="number" name="age" min="7" max="20" placeholder="15 лет" required>
+            </label>
+
+            <label class="field">
+              <span class="field__label">К чему планируете подготовку: к егэ или огэ?</span>
+              <select class="field__input" name="exam" required>
+                <option value="" selected disabled>Выберите</option>
+                <option value="ДЛИТЕЛЬНАЯ ПОДГОТОВКА">Длительная подготовка к ОГЭ по Русскому языку</option>
+                <option value="ДЛИТЕЛЬНАЯ ПОДГОТОВКА">Длительная подготовка к ЕГЭ по Русскому языку</option>
+                <option value="ДЛИТЕЛЬНАЯ ПОДГОТОВКА">Длительная подготовка к ОГЭ по Литературе</option>
+                <option value="ДЛИТЕЛЬНАЯ ПОДГОТОВКА">Длительная подготовка к ЕГЭ по Литературе</option>
+                <option value="ИНТЕНСИВ">Интенсивная подготовка к ОГЭ по Русскому языку</option>
+                <option value="ИНТЕНСИВ">Интенсивная подготовка к ЕГЭ по Русскому языку</option>
+                <option value="СПРИНТЫ">Спринт по сочинениям/изложениям ЕГЭ/ОГЭ</option>
+                <option value="СПРИНТЫ">Спринт по пунктуации</option>
+                <option value="СПРИНТЫ">Спринт по орфографии</option>
+
+              </select>
+            </label>
+
+            <button class="btn btn--primary btn--wide" type="submit">отправить</button>
+            <p class="formhint" id="formHint" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <div class="footer__grid">
+            <div class="footer__left">
+              <div class="footer__brand">Дарья Илюшкина</div>
+              <div class="footer__copy">© 2025</div>
+            </div>
+
+            <nav class="footer__nav" aria-label="Навигация в подвале">
+              <a href="#lessons">О занятиях</a>
+              <a href="#cases">Кейсы</a>
+              <a href="#reviews">Отзывы</a>
+              <a href="#pricing">Стоимость</a>
+              <a href="#about">Обо мне</a>
+              <a href="#contacts">Контакты</a>
+            </nav>
+
+            <div class="footer__right">
+              <a class="footer__phone" href="tel:+79885365595">+7(988) 536-55-95</a>
+              <div class="footer__dev">Разработка сайта: @olya_kutusova</div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- простое модальное “подробнее” -->
+  <div class="modal" id="modalGuarantee" hidden aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-label="Гарантия — подробнее">
+      <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close>×</button>
+      <h3 class="modal__title">Гарантия — подробнее</h3>
+      <p class="modal__p">
+        Если за месяц до ЕГЭ ученик пишет пробник ниже 80 баллов — следующий месяц мы занимаемся бесплатно
+        и увеличиваем количество занятий в 2 раза, чтобы подтянуть слабые места.
+      </p>
+      <p class="modal__p">
+        Условия и формат обсуждаются индивидуально, чтобы программа реально помогала конкретному ученику.
+      </p>
+      <div class="modal__actions">
+        <a class="btn btn--primary btn--wide" href="#request">оставить заявку</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
